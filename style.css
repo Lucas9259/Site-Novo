@@ -159,10 +159,9 @@ nav a:hover {
 	font-size: 13px;
 	margin: 20px 0 0 ; 
 }
-@media screen and (max-width: 480px) {
-   .tema, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .Aventuras{
-            width: auto;
-           
+@media screen and (max-width: 800px) {
+    .tema, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .Aventuras{
+    width: 100%;
         }
     
         h1 {
@@ -177,12 +176,14 @@ nav a:hover {
         .lista-beneficios, .imagem-beneficios {
             width: 100%;
         }
-.aventuras{
+        
+        .aventuras{
              margin: 20px auto;
-            width: auto; 
-            }
- .aventuras li{
-                width: 80%;
-                margin: 5px 25px;
-            }
+            width: 100%; 
+        }
+        
+        .aventuras li{
+            width: 80%;
+            margin: 5px auto;
+        }
     }
